@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Event Registration</h1>
+            <p class="subtitle">Join us to explore the world of design.</p>
+        </div>
+
+        <form id="registrationForm">
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here">
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email id:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email ID here">
+            </div>
+
+            <!-- Design Interests Radio Buttons -->
+            <div class="form-group">
+                <span class="label">Design Interests</span>
+                <div>
+                    <input type="radio" id="uiux-interest" name="interests" value="uiux-design">
+                    <label for="uiux-interest">UI/UX Design</label>
+                </div>
+                <div>
+                    <input type="radio" id="graphic-interest" name="interests" value="graphic-design">
+                    <label for="graphic-interest">Graphic Design</label>
+                </div>
+                <div>
+                    <input type="radio" id="web-development" name="interests" value="web-development">
+                    <label for="web-development">Web Development</label>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit">Register Now</button>
+            </div>
+        </form>
+
+        <!-- Message Box for Success or Error -->
+        <div id="messageBox" class="message-box hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

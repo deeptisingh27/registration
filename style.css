@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: grey;
+}
+
+.form-group {
+    margin-top: 1.5rem;
+}
+
+label {
+    display: inline;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: grey;
+    margin-left: 0.5rem;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(0, 136, 255, 0.959);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(0, 42, 255);
+}
+
+.message-box {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.message-box.success {
+    background-color: #d1fae5;
+    color: green;
+}
+
+.message-box.error {
+    background-color: #fee2e2;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
