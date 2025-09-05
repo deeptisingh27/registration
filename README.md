@@ -1,4 +1,5 @@
 Event Registration Form
+
 A simple registration form built using HTML, CSS, and JavaScript with a clean light theme.
 It validates inputs (name, email, and interest selection) and shows success or error messages.
 
